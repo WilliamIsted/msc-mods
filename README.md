@@ -1,10 +1,11 @@
 # MSC Mods
 
-Releases and issue tracking for my My Summer Car / My Winter Car mods.
+Releases and issue tracking for my My Summer Car mods.
 
-| Mod | Game | Latest |
+| Mod | Description | Latest |
 |---|---|---|
-| **Ghost Car** - record your races, then race your ghost | My Summer Car | [Releases](https://github.com/WilliamIsted/msc-mods/releases?q=GhostCar) |
+| **Ghost Car** | Record your races, then race your ghost | [Releases](https://github.com/WilliamIsted/msc-mods/releases?q=ghost-car) |
+| **Fine Choke Control** | Scroll-wheel fine control for the Satsuma choke | [Releases](https://github.com/WilliamIsted/msc-mods/releases?q=fine-choke-control) |
 
 ## Bug reports
 
