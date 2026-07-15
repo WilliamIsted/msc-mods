@@ -1,0 +1,48 @@
+name: Bug report
+description: Something broken in one of the mods
+title: "[Mod] Short description"
+labels: [bug]
+body:
+  - type: dropdown
+    id: mod
+    attributes:
+      label: Mod
+      options:
+        - Ghost Car
+        - Fine Choke Control
+    validations:
+      required: true
+  - type: input
+    id: mod-version
+    attributes:
+      label: Mod version
+      placeholder: "0.4.0"
+    validations:
+      required: true
+  - type: input
+    id: mscloader-version
+    attributes:
+      label: MSCLoader version
+      placeholder: "1.4.2"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect, what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Sign up for rally
+        2. ...
+  - type: textarea
+    id: log
+    attributes:
+      label: output_log.txt
+      description: Drag the file in, or paste the relevant lines. Found in the game's install folder.
+      render: text
